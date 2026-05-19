@@ -1,7 +1,6 @@
 from django.http import HttpResponse, HttpResponseRedirect
 from django.shortcuts import render, get_object_or_404
-from .models import Course, PageCourse, TeamMember
-from .models import Quiz, Question, Result
+from .models import Course, PageCourse, TeamMember, Quiz, Question, Result
 from django.contrib.auth.decorators import login_required
 
 def home_view(request):
